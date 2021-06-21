@@ -1,0 +1,16 @@
+<p>network works!</p>
+<div *ngIf="Dane">
+    {{Dane.name}}
+    </div>
+<div>
+    <input type="text" [(ngModel)]="statek">
+    <button class="button" (click)="GetData(statek)">Sprawdz</button><br>
+    <input type="text" [(ngModel)]="gracz.Name">
+    <input type="text" [(ngModel)]="gracz.Password">
+    <button class="button" (click)="PostData(gracz)">Dodaj</button><br><br>
+    
+    <input type="text" [(ngModel)]="nstatek.Name">
+    <input type="text" [(ngModel)]="nstatek.TypeNum">
+    <input type="checkbox" [(ngModel)]="test">Test<input type="checkbox" [(ngModel)]="attack">Attack<input type="text" [(ngModel)]="attack2">
+    <button class="button" (click)="PostStatek()">Dodaj</button>
+</div>

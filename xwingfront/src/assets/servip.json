@@ -1,0 +1,8 @@
+{
+    "ip":"https://localhost:5009/",
+    "url":"api/",
+    "header":{
+    "Authorization":"XD",
+    "Content-Type":"application/json"
+    }
+}
